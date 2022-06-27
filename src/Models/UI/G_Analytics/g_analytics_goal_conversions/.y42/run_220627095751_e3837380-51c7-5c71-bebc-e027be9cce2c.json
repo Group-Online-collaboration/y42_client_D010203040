@@ -1,0 +1,38 @@
+{
+  "request_id": "220627095751_e3837380-51c7-5c71-bebc-e027be9cce2c",
+  "status": "pending",
+  "request": {
+    "target_credentials": "0fdffb41-01ec-47e2-a787-a4b9db121e4d",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "f58bc9b1-fada-4880-994e-a8c1618466c6"
+    },
+    "created_at": "2022-06-27T09:57:51.273566+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/G_Analytics/g_analytics_goal_conversions/",
+        "id": "5:5394dbe4-3003-4688-89fc-9977d0a80c6e",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_D010203040",
+        "commit_sha": "32332d36099661f42c2c01467a592be64cbd4dda"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "32",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-27T09:57:51.273566+00:00",
+  "_signature": "8+0j4VGfry4Wp7qS30+k5q6inQd0EbpR/vpqWO8IQBDOzXRZlQWRIVN8hsYMyyWd53jyTLasocnaGdjejPWcCQ=="
+}
