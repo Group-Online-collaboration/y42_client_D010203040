@@ -1,0 +1,902 @@
+{
+  "nodeDataArray": [
+    {
+      "key": "3d7f12c1-d1cc-4208-b336-7f49d9295163",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "3d7f12c1-d1cc-4208-b336-7f49d9295163",
+        "title": "campaign_adcontent_performance",
+        "transformationType": "INPUT",
+        "datasourceName": "G_Analytics",
+        "transformObject": {
+          "source": "src/Integrations/G_Analytics",
+          "table": "src/Integrations/G_Analytics/campaign_adcontent_performance_v2",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-920.5867768595042 -494.8040005053593"
+    },
+    {
+      "key": "0412922a-5b84-4ad2-bb80-f5977b21a694",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "0412922a-5b84-4ad2-bb80-f5977b21a694",
+        "title": "goal_conversions",
+        "transformationType": "INPUT",
+        "datasourceName": "G_Analytics",
+        "transformObject": {
+          "source": "src/Integrations/G_Analytics",
+          "table": "src/Integrations/G_Analytics/goal_conversions",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-908.8760330578513 -302.188679245283"
+    },
+    {
+      "key": "7f89c818-d026-4d8e-9464-ad32d852e8a4",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "7f89c818-d026-4d8e-9464-ad32d852e8a4",
+        "title": "",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "client_id",
+            "originalString": "\"D001263\"",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "Literal",
+                    "raw": "\"D001263\"",
+                    "value": "D001263",
+                    "range": [
+                      0,
+                      9
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 9
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    9
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 9
+                    }
+                  },
+                  "directive": "D001263"
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                9
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 9
+                }
+              },
+              "tokens": [
+                {
+                  "type": "String",
+                  "value": "\"D001263\"",
+                  "range": [
+                    0,
+                    9
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 9
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          },
+          {
+            "target": "loaded_at",
+            "originalString": "CURRENT_DATETIME()",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "CURRENT_DATETIME",
+                      "range": [
+                        0,
+                        16
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 16
+                        }
+                      }
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "range": [
+                      0,
+                      18
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 18
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    18
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                18
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 18
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Identifier",
+                  "value": "CURRENT_DATETIME",
+                  "range": [
+                    0,
+                    16
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 16
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": "(",
+                  "range": [
+                    16,
+                    17
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": ")",
+                  "range": [
+                    17,
+                    18
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 17
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-600.9669421487604 -491.60377358490564"
+    },
+    {
+      "key": "5be4277e-609d-4f9f-bced-8551dae02389",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "5be4277e-609d-4f9f-bced-8551dae02389",
+        "title": "",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "client_id",
+            "originalString": "\"D001263\"",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "Literal",
+                    "raw": "\"D001263\"",
+                    "value": "D001263",
+                    "range": [
+                      0,
+                      9
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 9
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    9
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 9
+                    }
+                  },
+                  "directive": "D001263"
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                9
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 9
+                }
+              },
+              "tokens": [
+                {
+                  "type": "String",
+                  "value": "\"D001263\"",
+                  "range": [
+                    0,
+                    9
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 9
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          },
+          {
+            "target": "loaded_at",
+            "originalString": "CURRENT_DATETIME()",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "CURRENT_DATETIME",
+                      "range": [
+                        0,
+                        16
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 16
+                        }
+                      }
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "range": [
+                      0,
+                      18
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 18
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    18
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                18
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 18
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Identifier",
+                  "value": "CURRENT_DATETIME",
+                  "range": [
+                    0,
+                    16
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 16
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": "(",
+                  "range": [
+                    16,
+                    17
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": ")",
+                  "range": [
+                    17,
+                    18
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 17
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-580.9669421487604 -299.60377358490564"
+    },
+    {
+      "key": "284ecd15-cc51-41a6-bf2a-ad67e7f6075b",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "284ecd15-cc51-41a6-bf2a-ad67e7f6075b",
+        "title": "g_analytics_campaign_adcontent_performance",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "g_analytics_campaign_adcontent_performance",
+          "fields": [
+            {
+              "target": "ga_date",
+              "source": "ga_date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_channelgrouping",
+              "source": "ga_channelgrouping",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_sourcemedium",
+              "source": "ga_sourcemedium",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_campaign",
+              "source": "ga_campaign",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_adcontent",
+              "source": "ga_adcontent",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_adgroup",
+              "source": "ga_adgroup",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_countryisocode",
+              "source": "ga_countryisocode",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_users",
+              "source": "ga_users",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_newusers",
+              "source": "ga_newusers",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_sessions",
+              "source": "ga_sessions",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_sessionduration",
+              "source": "ga_sessionduration",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_pageviews",
+              "source": "ga_pageviews",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_bounces",
+              "source": "ga_bounces",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_transactions",
+              "source": "ga_transactions",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_transactionrevenue",
+              "source": "ga_transactionrevenue",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "client_id",
+              "source": "client_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "loaded_at",
+              "source": "loaded_at",
+              "type": "DATETIME",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-291.76033057851237 -493.2452830188679"
+    },
+    {
+      "key": "f58bc9b1-fada-4880-994e-a8c1618466c6",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "f58bc9b1-fada-4880-994e-a8c1618466c6",
+        "title": "g_analytics_goal_conversions",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "g_analytics_goal_conversions",
+          "fields": [
+            {
+              "target": "ga_date",
+              "source": "ga_date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_channelgrouping",
+              "source": "ga_channelgrouping",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_source",
+              "source": "ga_source",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_medium",
+              "source": "ga_medium",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_campaign",
+              "source": "ga_campaign",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_country",
+              "source": "ga_country",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_goal1completions",
+              "source": "ga_goal1completions",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_goal2completions",
+              "source": "ga_goal2completions",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_goal3completions",
+              "source": "ga_goal3completions",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_goal4completions",
+              "source": "ga_goal4completions",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_goal5completions",
+              "source": "ga_goal5completions",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ga_goalcompletionsall",
+              "source": "ga_goalcompletionsall",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "client_id",
+              "source": "client_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "loaded_at",
+              "source": "loaded_at",
+              "type": "DATETIME",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-287.04958677685954 -299.7169811320755"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "3d7f12c1-d1cc-4208-b336-7f49d9295163",
+      "to": "7f89c818-d026-4d8e-9464-ad32d852e8a4"
+    },
+    {
+      "from": "0412922a-5b84-4ad2-bb80-f5977b21a694",
+      "to": "5be4277e-609d-4f9f-bced-8551dae02389"
+    },
+    {
+      "from": "7f89c818-d026-4d8e-9464-ad32d852e8a4",
+      "to": "284ecd15-cc51-41a6-bf2a-ad67e7f6075b"
+    },
+    {
+      "from": "5be4277e-609d-4f9f-bced-8551dae02389",
+      "to": "f58bc9b1-fada-4880-994e-a8c1618466c6"
+    }
+  ],
+  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
+}

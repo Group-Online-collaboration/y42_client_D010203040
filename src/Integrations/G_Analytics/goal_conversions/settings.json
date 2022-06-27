@@ -1,0 +1,20 @@
+{
+  "$schema": "https://s.y42.com/integrations/google-analytics/0.0.0/table",
+  "columns": [
+    "ga_date",
+    "ga_channelGrouping",
+    "ga_source",
+    "ga_medium",
+    "ga_campaign",
+    "ga_country",
+    "ga_goal1Completions",
+    "ga_goal2Completions",
+    "ga_goal3Completions",
+    "ga_goal4Completions",
+    "ga_goal5Completions",
+    "ga_goalCompletionsAll",
+    "report_start_date",
+    "report_end_date"
+  ],
+  "import": "goal_conversions"
+}

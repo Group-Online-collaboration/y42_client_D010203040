@@ -1,0 +1,23 @@
+{
+  "$schema": "https://s.y42.com/integrations/google-analytics/0.0.0/table",
+  "columns": [
+    "ga_date",
+    "ga_channelGrouping",
+    "ga_sourceMedium",
+    "ga_campaign",
+    "ga_adContent",
+    "ga_adGroup",
+    "ga_countryIsoCode",
+    "ga_users",
+    "ga_newUsers",
+    "ga_sessions",
+    "ga_sessionDuration",
+    "ga_pageviews",
+    "ga_bounces",
+    "ga_transactions",
+    "ga_transactionRevenue",
+    "report_start_date",
+    "report_end_date"
+  ],
+  "import": "campaign_adcontent_performance_v2"
+}
